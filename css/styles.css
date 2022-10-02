@@ -486,6 +486,7 @@ button {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .address-container {
@@ -537,7 +538,6 @@ button {
 }
 
 .join {
-  margin-top: 12px;
 }
 .join-title {
   font-family: "Roboto";
