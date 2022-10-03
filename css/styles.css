@@ -331,19 +331,18 @@ button {
 
 .soc-icons-link {
   fill: #afb1b8;
-}
-
-.soc-icons-item:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  background-color: var(--second-page-color);
 }
 
 .soc-icons-link:hover,
 .soc-icons-link:focus {
   fill: var(--main-page-color);
-}
-.soc-icons-link:focus {
-  border-radius: 50%;
+
   background-color: var(--second-page-color);
 }
 
@@ -390,8 +389,7 @@ button {
   flex-wrap: wrap;
 }
 .project-link {
-  width: 100%;
-  height: 100%;
+  display: block;
 }
 
 .projects-item img {
@@ -404,7 +402,8 @@ button {
   margin-bottom: 30px;
 }
 
-.projects-item:hover {
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -539,7 +538,7 @@ button {
 
 .join {
 }
-.join-title {
+.join-text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -563,14 +562,6 @@ button {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.soc-icons-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
 }
 
 .footer-icons-link {
